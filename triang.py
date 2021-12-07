@@ -1,7 +1,7 @@
 import numpy as np
 from math import pi
 import matplotlib.pyplot as plt
-from numpy import newaxis
+from numpy import _ArrayComplex_co, newaxis
 import time
 def disp(x):
     with np.printoptions(precision=2,suppress=Time):
@@ -31,3 +31,73 @@ def gen_dft_mtx(N,disp_flag=1):
     return(dft_mtx)
    N=4
    dft_mtx=gen_dft_mtx(N,1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hello alex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
