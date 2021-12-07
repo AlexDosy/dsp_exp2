@@ -3,12 +3,14 @@ import matplotlib.pyplot as plt
 from math import pi
 
 def rect(t,PW):
+
     return(1*np.array(np.abs(t)<PW/2))
 
 def impulse(t):
     return(1*np.array(np.abs(t)<0.01))
 
 def ramp(t):
+    
     return(t*np.array(t>0))
 
 def bipolar(t,T,D):
